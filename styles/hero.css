@@ -127,8 +127,55 @@
     letter-spacing: 0%;
     opacity: 0.7;
     margin-top: 24px;
-    /* width: 75%; */
     text-align: center;
     margin: 0 auto;
     opacity: 0.7;
+}
+
+.card-box-btn{
+    display: block;
+    color: white;
+    background-color: #52C303;
+    font-family: work sans;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 64px auto;
+    padding: 21px 32px;
+    border: none;
+    border-radius: 8px;
+}
+/* saction-2 styles */
+.section-2{
+    display: flex;
+    gap: 90px;
+}
+.section-2-text{
+    text-align: center;
+}
+.section-2-titel{
+    font-family: work sans;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 136px;
+}
+.section-2-des{
+    font-family: work sans;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(16, 16, 16);
+    margin: 24px 0 48px 0;
+}
+.section-2-social{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.social-links{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 32px;
 }
